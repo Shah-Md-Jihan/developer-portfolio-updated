@@ -4,16 +4,20 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
-.author_name {
+h2 {
+    font-size: 30px;
+}
+
+.orange_color {
     color: orange;
 }
 
-section {
+.flexible_container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 
 }
 
@@ -49,16 +53,46 @@ section {
     background-repeat: no-repeat;
 }
 
-.dream_half_width {
+.half_width {
     width: 50%;
+    padding-left: 7%;
 }
 
-.dream_half_width img {
+.half_width img {
     width: 75%;
+}
+
+.half_width p {
+    text-align: justify;
+    padding-right: 7%;
 }
 
 .dream_big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiance {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiance_item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#full_stack_dev {
+    border-left: 7px solid tomato;
+}
+
+#backend_dev {
+    border-left: 7px solid blue;
 }
