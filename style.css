@@ -96,3 +96,7 @@ h2 {
 #backend_dev {
     border-left: 7px solid blue;
 }
+
+footer p {
+    text-align: center;
+}
